@@ -1,0 +1,528 @@
+body{
+    font-family: 'Playfair Display', serif;
+
+}
+
+.space{
+    height: 5rem;
+}
+
+#showcase{
+    background: url('../images/carousel_img.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    /*font-family: 'PT Sans', sans-serif;*/
+    font-family: 'Playfair Display', serif;
+
+}
+
+.wrap-content{
+    padding: 1.50rem;
+}
+
+/*Transparency*/
+.bg-t{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* SECTION 2 */
+
+.section_1_box{
+    padding: 1rem 0.5rem;
+    border: solid  orangered 2px;
+    margin-top: 1.50rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.section_1_img{
+    width: 100%;
+    max-height: 500px;
+    margin: 2rem auto;
+
+}
+
+
+/*Section_three*/
+
+.section_3_image{
+    background: url('../images/image_3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.section_3{
+    padding: 0 !important;
+    font-family: 'Playfair Display', serif;
+}
+
+.section_3_text{
+    text-align: center;
+    color: seashell;
+    padding-top: 16rem ;
+    font-size: 3.5rem;
+}
+
+/*Section four*/
+@media screen and (max-width:767px){
+    .section_4{
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    
+    .first_box{
+        height: 290px;
+        width: 100%;
+        padding: 1rem 0.5rem 0 0.5rem;
+        border: solid  orangered 2px;
+        background-color: papayawhip;
+        margin-top: 1rem;
+        
+    
+    }
+    
+    .second_box{
+        height: 290px;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+     
+    .section_4_img{
+        height: 250px;
+    }
+    .second_box{
+        width: 100%;
+    }
+    .content .title{
+        font-size: 1rem;
+    }
+    
+    .content .subtitle{
+        font-size: 0.8rem;
+    }
+    .content .lead{
+        font-size: 0.8rem !important;
+    }
+    
+    .my-btn{
+        text-align: center;
+        font-size: 0.8rem;
+        color: black;
+        border: solid orangered 1px;
+        padding: 0.2rem 0.5rem;
+        font-family: 'Playfair Display', serif;
+    }
+    
+
+}
+
+/* SECTION 5*/
+
+.wrapper{
+    color: #fff;
+    text-align: center;
+    background: black;
+    width: 90%;
+    margin: 0 auto;
+    height: 155px;
+    font-family: 'Playfair Display', serif;
+}
+
+.wrapper .menu_div{
+    text-align: center;
+    color: blanchedalmond;
+    padding: 1rem 0;
+    margin: 0 2rem;
+    border: 3px solid #fff ;
+}
+
+
+/* SECTION 6 */
+
+.section_6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Playfair Display', serif;
+}
+
+.menu_1,.menu_3{
+    background: cornsilk;
+    border: 1px solid orangered;
+    width: 33%;
+    height: 570px;
+    padding: 1rem;
+}
+
+.menu_2{
+    background: cornsilk;
+    border: 1px solid orangered;
+    width: 33%;
+    height: auto;
+    padding: 1rem;
+}
+
+.section_6 .my-btn{
+    columns: #000000;;
+    border: solid gray 2px;
+    margin: 1rem 1rem ;
+
+}
+
+/* SECTION 7 */
+
+.section_7{
+    margin-top: 5rem;
+}
+
+.back_img{
+    background: url('../images/carousel_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.my-form{
+    margin: 0 auto;
+    padding-top: 3rem;
+
+}
+
+.reservation-title{
+    padding-top: 6rem;
+    font-size: 2rem;
+    color: seashell;
+}
+
+.my-btn-2{
+    padding: 1rem 1rem;
+    border: sienna 2px solid;
+   margin-right: 10px;
+   margin-top: 10px;
+    width: 250px;
+}
+
+.my-form-control{
+    width: 250px;
+    padding: 1rem;
+    border: sienna 2px solid;
+    margin-right: 10px ;
+
+}
+
+
+
+
+
+/* MEDIA QUERIES*/
+
+/* Showcase */
+@media screen and (max-width: 779px){
+
+    .h-text{
+        width: 95%;
+        text-align: center;
+        margin: 20% auto;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    #display{
+        font-size: 1.90rem;
+    }
+
+    .h-text h2{
+        font-size: 1.2rem;
+    }
+    .h-text p {
+        font-size: 0.8rem;
+    }
+
+    #showcase{
+        background: url('../images/carousel_img.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+    
+    }
+    .section_3_text{
+        font-size: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 780px){
+
+    .h-text{
+        width: 750px;
+        text-align: center;
+        margin: 10% auto;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+}
+
+/*Section_2* breakpoint Medium size screen*/
+
+@media screen and (min-width:768px){
+    .mycol { grid-area:header;}
+    .mycol_1 { grid-area:left;}
+    .mycol_2 { grid-area:right;}
+
+    .section_1{
+        display: grid;
+        grid-template-areas: 
+            'header header header header header header'
+            'left left left right right right';
+    }
+
+    .section_1_box{
+        width: 100%;
+        
+    }
+
+    .section_1_img{
+        width: 99%;
+        max-height: 400px;
+    }
+
+    .section_1_img_1{
+        width: 99%;
+        max-height: 400px;
+    }
+}
+
+/*Breakpoint large screen*/
+
+@media screen and (min-width: 1000px){
+
+    .section_1{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mycol{
+        width: 45.33%;
+        order: 3;
+        margin-top: 4rem;
+        margin-left: -7.5rem;
+ 
+        
+    }
+
+    .mycol_1{
+        width: 33.33%;
+    }
+
+
+    .mycol_2{
+        width: 33.33%;
+    }
+
+    .section_1_box{
+        background: seashell;
+    }
+
+}
+
+/*Section 4 media query*/
+
+@media screen and (min-width:1200px){
+    .section_4{
+        display: flex;
+        flex-direction: row;
+        flex-basis: 50%;
+        margin-top: 3rem;
+    }
+    
+    .first_box{
+        height: 290px;
+        width: 100%;
+        padding: 1rem 0.5rem;
+        border: solid  orangered 2px;
+        margin-top: 3rem;
+        padding-left: 2rem;
+        margin-right: -4rem;
+        background-color: papayawhip;
+        z-index: 5;
+    }
+    
+    
+    
+    .second_box{
+        height: 200px;
+        width: 100%;
+    }
+
+    .content .title{
+        font-size: 1.5rem;
+    }
+    
+    .my-btn{
+        text-align: center;
+        color: black;
+        border: solid orangered 2px;
+        padding: 0.8rem 1.2rem;
+    }
+    
+}
+
+/* Medium screen*/
+
+@media screen and (min-width:768px) and (max-width:1199px){
+    .section_4{
+        display: flex;
+        flex-direction: row;
+        flex-basis: 50%;
+        margin-top: 3rem;
+    }
+    
+    .first_box{
+        height: 250px;
+        width: 100%;
+        padding: 1rem 0.5rem;
+        border: solid  orangered 2px;
+        padding-left: 2rem;
+        background-color: papayawhip;
+        margin-right: 0.5rem;
+
+    }
+
+    .first_box img{
+        height: 250px;
+    }
+    
+    
+    .section_4_img{
+        height: 250px;
+    }
+    .second_box{
+        width: 100%;
+        margin-left: 0.5rem;
+    }
+    .content .title{
+        font-size: 1rem;
+    }
+
+    .content .subtitle{
+        font-size: 0.8rem;
+    }
+    .content .lead{
+        font-size: 0.8rem !important;
+    }
+
+    .my-btn{
+        text-align: center;
+        font-size: 0.8rem;
+        color: black;
+        border: solid orangered 1px;
+        padding: 0.2rem 0.5rem;
+    }
+}
+
+/* SECTION 6 MEDIA QUERY */
+
+@media screen and (max-width:768px)
+{
+    .section_6{
+        display: flex;
+        flex-direction: column;
+        /*justify-content: space-between;*/
+    }
+
+    .menu_1,.menu_2,.menu_3{
+        background: cornsilk;
+        border: 1px solid orangered;
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    
+    .section_6 .my-btn{
+        columns: #000000;;
+        border: solid gray 2px;
+        margin: 1rem 1rem ;
+    
+    }
+}
+
+
+
+/*Section 7 2 */
+
+.resp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.one{
+    justify-self: end;
+
+}
+
+.three{
+    justify-self: start;
+}
+
+.four{
+    margin-top: 1rem;
+}
+
+
+@media screen and (max-width:840px){
+    .resp{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .one{
+        justify-self: stretch;
+    
+    }
+    .two{
+        margin-top: 0.5rem;
+    }
+    
+    .three{
+        justify-self: stretch;
+        margin-top: 0.5rem;
+    }
+    
+    .four{
+        margin-top: 1rem;
+        margin-top: 0.5rem;
+    }
+}
+
+/* SECTION 8 */
+
+.section_8{
+    background: #252525;
+    padding: 5rem 3rem;
+    color: seashell;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+.right{
+    justify-self: center;
+}
+
+
+@media screen and (max-width:960px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+}
